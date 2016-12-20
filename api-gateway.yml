@@ -5,5 +5,5 @@ zuul:
    routes:
        bankslip:
            path: /bankslip/**
-	   stripPrefix: false
+           stripPrefix: false
            serviceId: bankslip
