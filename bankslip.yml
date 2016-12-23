@@ -5,6 +5,11 @@ spring:
   profiles:
     active: docker
 
+spring:
+  cloud:
+    config:
+      uri: http://${config-service:localhost}:8888
+
 eureka:
   client:
     service-url:
