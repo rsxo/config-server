@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://${config-service:localhost}:8888
+      uri: http://${configservice:localhost}:8888
 server:
   port: 8761
 eureka:

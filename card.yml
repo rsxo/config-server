@@ -6,9 +6,9 @@ spring:
     active: docker
   cloud:
     config:
-      uri: http://${config-service:localhost}:8888
+      uri: http://${configservice:localhost}:8888
 
 eureka:
   client:
     service-url:
-      defaultZone: http://${eureka-service:localhost}:8761/eureka/
+      defaultZone: http://${eurekaservice:localhost}:8761/eureka/
