@@ -1,5 +1,5 @@
 server:
-   port: ${CARD_PORT:8080}
+   port: ${CARD_PORT:8089}
 
 spring:
   profiles:
