@@ -1,19 +1,19 @@
 server:
   port: 9999
 
-zuul:
-  routes:
-    bankslip:
-      path: /bankslip/**
-      stripPrefix: false
-    card:
-      path: /card/**
-      stripPrefix: false
-      serviceId: card
-    electronictransfer:
-      path: /electronictransfer/**
-      stripPrefix: false
-      serviceId: electronictransfer
+#zuul:
+#  routes:
+#    bankslip:
+#      path: /bankslip/**
+#      stripPrefix: false
+#    card:
+#      path: /card/**
+#      stripPrefix: false
+#      serviceId: card
+#    electronictransfer:
+#      path: /electronictransfer/**
+#      stripPrefix: false
+#      serviceId: electronictransfer
 
 eureka:
   client:
