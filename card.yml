@@ -5,6 +5,7 @@ spring:
   profiles:
     active: default
 hostname: localhost
+maxSize: 20
 
 ---
 spring:
