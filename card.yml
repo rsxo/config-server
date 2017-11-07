@@ -1,9 +1,13 @@
 server:
    port: ${CARD_PORT:8080}
-
+---
 spring:
-  profiles:
-    active: docker
+  profiles: default
+hostname: localhost123
+
+---
+spring:
+  profiles: docker
   cloud:
     config:
       uri: http://${CONFIG_SERVER:localhost:8888}
