@@ -2,7 +2,8 @@ server:
    port: ${CARD_PORT:8080}
 ---
 spring:
-  profiles: default
+  profiles:
+    active: default
 hostname: localhost123
 
 ---
